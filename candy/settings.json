@@ -1,10 +1,5 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "tabWidthMode": "titleLength",
-    "initialRows": 25,
-    "initialCols": 100,
-    "copyOnSelect": false,
     "profiles": {
         "defaults": {
             "backgroundImage": "ms-appdata:///local/candy.small.png",
@@ -16,51 +11,8 @@
             "font": {
                 "face": "Cascadia Code NF",
                 "size": 11
-            },
-            "startingDirectory": "E:/.dev"
-        },
-        "list": [
-            {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "name": "PowerShell Core",
-                "source": "Windows.Terminal.PowershellCore",
-                "hidden": false
-            },
-            {
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "name": "Windows PowerShell",
-                "commandline": "powershell.exe",
-                "tabTitle": "PowerShell 5.1",
-                "hidden": false
-            },
-            {
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "cmd",
-                "commandline": "cmd.exe",
-                "hidden": false
-            },
-            {
-                "guid": "{78b4b215-5722-447b-8b7e-093f96493df2}",
-                "name": "Git Bash",
-                "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
-                "tabTitle": "Bash",
-                "icon": "%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico",
-                "hidden": false
-            },
-            {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "name": "Git Bash",
-                "source": "Git",
-                "hidden": true
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure",
-                "tabTitle": "Cloud Shell",
-                "hidden": false
             }
-        ]
+        }
     },
     "schemes": [
         {
@@ -72,18 +24,17 @@
             "green": "#4EC9B0",
             "yellow": "#CE9178",
             "blue": "#579BD5",
-            "purple": "#714896",
+            "purple": "#A27AD0",
             "cyan": "#00B6D6",
             "white": "#EAEAEA",
             "brightBlack": "#797979",
-            "brightRed": "#EB2A88",
+            "brightRed": "#FF8AC4",
             "brightGreen": "#1AD69C",
             "brightYellow": "#e9ad95",
             "brightBlue": "#9CDCFE",
-            "brightPurple": "#975EAB",
+            "brightPurple": "#B98FE6",
             "brightCyan": "#2BC4E2",
-            "brightWhite": "#EAEAEA"
+            "brightWhite": "#FFFFFF"
         }
-    ],
-    "actions": []
+    ]
 }
